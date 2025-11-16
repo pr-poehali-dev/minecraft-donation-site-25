@@ -78,7 +78,7 @@ const Index = () => {
       <nav className="border-b border-border/50 backdrop-blur-sm bg-background/80 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold gradient-text">MineCraft Server</h1>
+            <h1 className="text-2xl font-bold gradient-text">Zornit</h1>
             <div className="flex gap-4">
               <Button 
                 variant={activeTab === 'home' ? 'default' : 'ghost'}
@@ -299,7 +299,7 @@ const Index = () => {
 
       <footer className="border-t border-border/50 mt-20 py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>© 2025 MineCraft Server. Все права защищены.</p>
+          <p>© 2025 Zornit. Все права защищены.</p>
         </div>
       </footer>
     </div>
